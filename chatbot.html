@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+		<!-- <link rel="shortcut icon" type="image/x-icon" href="" /> -->
+        <!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
+        <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+        <link href="css/fonts/font.css" rel="stylesheet" type="text/css"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/chatbot.css" rel="stylesheet" type="text/css"/>
+
+        <script src="js/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+        <script src="js/jquery_ui/slick.min.js" type="text/javascript"></script>
+        <script src="js/chatbot/chatbot.js" type="text/javascript"></script>
+       
+		<style type="text/css">
+ 
+        </style>
+
+
+		<title>Chatbot</title>
+	</head>
+	<script>
+       
+    </script>
+    
+
+	<body>
+        <div class="header_wrap">
+             <div class="header">
+                <img src="images/chatbot/chatbot_logo.png">Chatbot
+            </div>
+        </div>
+        <!-- header_wrap -->
+        <div id="contentWrap" class="container chatbot_wrap">
+            <div class="content_con">
+            <!-- bot_date -->
+                <p class="bot_date_wrap">
+                    <span class="bot_date">
+                        2019년 5월 3일 금요일
+                    </span>
+                </p>
+            <!-- bot_date //-->
+
+<!-- 
+
+- bot_ai_wrap :텍스트만 들어 갔을때 유동
+- bot_ai_wrap w100 :버튼과 이미지가 들어갔을때 고정
+
+-->
+            <div class="bot_ai_wrap">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                        안녕하세요. AI 기반 기술중심 기업<br />
+                        포스윈 안내 챗봇입니다.<br />
+                        무엇을 도와드릴까요?
+                        </p>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+
+
+<!-- 이미지 --------------------------------------------------------------------------- -->
+            <div class="bot_ai_wrap w100">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                           콘텐츠 스타일 :con_style01
+                        </p>
+                        
+                        <div class="img_wrap con_style01">
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_01.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bot_ai_wrap w100">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                            콘텐츠 스타일 :con_style02
+                        </p>
+                        
+                        <div class="img_wrap con_style02">
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_01.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 옆으로 정사각모양 -->
+            <div class="bot_ai_wrap w100">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                            레이어 스타일 :img_style01
+                        </p>
+                        
+                        <div class="img_wrap con_style02 img_style01">
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_02.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_04.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_03.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 위 아래 -->
+            <div class="bot_ai_wrap w100">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                            레이어 스타일 :img_style02
+                        </p>
+                        
+                        <div class="img_wrap con_style01 img_style02">
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_03.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_04.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_01.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bot_ai_wrap w100">
+                <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                <div class="bot_ai">
+                    <p class="bot_ai_tit">상담 챗봇</p>
+                    <div class="bot_ai_con">
+                        <p>
+                            레이어스타일 : img_style03
+                        </p>
+                        
+                        <div class="img_wrap con_style01 img_style03">
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_03.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_04.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                            <div>
+                                <div class="img_con">
+                                    <img src="images/content/imgcon_01.jpg">
+                                </div>
+                                <p class="img_txt"><span>회사소개</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+<!-- //이미지 --------------------------------------------------------------------------- -->
+            <!-- bot_customer_wrap -->
+                <div class="bot_customer_wrap">
+                    <p class="bot_customer">예약확인</p>
+                </div>
+            <!-- bot_customer_wrap //-->
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <div class="img_wrap">
+                                <div class="img_con">
+                                    <img src="images/chatbot/chatbot_img_01.jpg" class="wd_s">
+                                </div>
+                            </div>
+                            <p>
+                                예약확인을 선택하셨습니다.<br />
+                                확인을 눌러주세요.
+                            </p>
+                            <div class="bot_btn bot_btn_type03">
+                                <button>예</button>
+                                <button>아니요</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+            <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con slid_wrap">
+                            <p>
+                            챗봇으로 만나는 편리한 이용 Tip!
+                            24시간 궁금한 점을 바로 안내해드립니다.
+                            아래 대화창에 물어보세요! 또는 네 개 이미지 중 해당 항목을 클릭하세요!
+                            </p>
+                            
+                            <div class="bot_btn_slid img_wrap img_style01 con_style02">
+
+                                <div class="bot_btn_slid_list">
+                                    <a href="">
+                                        <div class="img_con">
+                                            <img src="images/content/imgcon_01.jpg">
+                                        </div>
+                                        <p class="img_txt"><span>회사소개</span></p>
+                                    </a>
+                                </div>
+
+                                <div class="bot_btn_slid_list">
+                                    <a href="">
+                                        <div class="img_con">
+                                            <img src="images/chatbot/chatbot_slid_img_01.jpg">
+                                        </div>
+                                        <p class="img_txt"><span>이용방법</span></p>
+                                    </a>
+                                </div>
+                                <div class="bot_btn_slid_list">
+                                    <a href="">
+                                        <div class="img_con">
+                                            <img src="images/content/imgcon_04.jpg">
+                                        </div>
+                                        <p class="img_txt"><span>이용방법</span></p>
+                                    </a>
+                                </div>
+                                <div class="bot_btn_slid_list">
+                                    <a href="">
+                                        <div class="img_con">
+                                            <img src="images/content/imgcon_03.jpg">
+                                        </div>
+                                        <p class="img_txt"><span>이용방법</span></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+
+
+
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <p>
+                                안녕하세요. 저는 미르챗이에요.<br />
+                                저는 메신저가 편리한 고객님들을 위해<br />
+                                빠르고 편리한 서비스를 제공해요.
+                                아래는 제가 제공하는 서비스랍니다.<br />
+                                무엇을 도와드릴까요!
+                            </p>
+                            
+                            <div class="bot_btn bot_btn_type01">
+                                <button>서비스 이용 Tip</button>
+                                <button>챗봇 서비스 소개</button>
+                                <button>요청 상태 확인</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+            <!-- bot_customer_wrap -->
+                <div class="bot_customer_wrap">
+                    <p class="bot_customer">챗봇 서비스 소개를 안내해주세요.</p>
+                </div>
+            <!-- bot_customer_wrap //-->
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <p>
+                               전화번호를 입력해주세요.
+                            </p>
+                            <div class="bot_btn" id="popup_btn_phone">
+                                <button>전화번호 입력</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <p>
+                               주소를 입력해주세요.
+                            </p>
+                            <div class="bot_btn" id="popup_btn_address">
+                                <button>주소찾기</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <p>
+                               날짜를 선택해주세요.
+                            </p>
+                            <div class="bot_btn" id="popup_btn_calendar">
+                                <button>날짜선택</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+
+            
+            <!-- bot_ai_wrap -->
+                <div class="bot_ai_wrap w100">
+                    <div class="bot_icon"><img src="images/chatbot/chatbot_icon.png"></div>
+                    <div class="bot_ai">
+                        <p class="bot_ai_tit">상담 챗봇</p>
+                        <div class="bot_ai_con">
+                            <p>
+                               방문하실 시간을 선택해 주십시오.
+                            </p>
+                            <div class="bot_btn" id="popup_btn_time">
+                                <button>확인하기</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            <!-- bot_ai_wrap //-->
+           
+
+
+                
+            </div><!-- content_con -->
+        </div>
+        <!-- contentWrap -->
+    <!-- #footer -->
+        <footer id="footer_wrap">
+            <div class="footer">    
+                <p class="chatbot_delete"><a href="javascript:void(0);"></a></p>
+                <div>
+                    <input type="text" name="" placeholder="메시지를 입력해 주세요.">
+                    <span class="chaticon"><a href="javascript:void(0);"><img src="images/chatbot/chaticon.png"></a></span>
+                </div>
+                <p class="chatbot_send"><a href="javascript:void(0);"></a></p>
+            </div>
+            <!-- menu_etc -->
+                <div class="menu_etc">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="images/chatbot/etc_icon_01.png">
+                                <p>사진</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="images/chatbot/etc_icon_02.png">
+                                <p>동영상</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- menu_etc -->
+        </footer>
+    <!-- // #footer -->
+    
+
+    <!-- popup_wrap -->
+    <div class="popup_bg"></div>
+    <div class="popup_wrap">
+        <!-- 전화번호 -->
+        <div id="popup_phone" class="">
+            <div class="poup_tit">
+                <p>전화번호입력</p>
+                <span class="poup_close_btn"><a href="javascript:void(0);"><img src="images/chatbot/poup_close_btn_03.png" alt="팝업닫기"></a></span>
+            </div>
+            <div class="poup_con phone_box">
+               <span><input type="number" name=""></span>
+               <span><input type="number" name=""></span>
+               <span><input type="number" name=""></span>
+            </div>
+            <div class="popup_btn btn_all">
+               <a href="javascript:void(0);">닫기</a>
+            </div>
+        </div>
+        <!-- 주소 -->
+        <div id="popup_address" class="">
+            <div class="poup_tit">
+                <p>우편번호 찾기</p>
+                <span class="poup_close_btn"><a href="javascript:void(0);"><img src="images/chatbot/poup_close_btn_03.png" alt="팝업닫기"></a></span>
+            </div>
+            <div class="poup_con">
+                <ul class="popup_list_btn">
+                    <li class="on"><a href="javascript:void(0);">도로명주소</a></li>
+                    <li><a href="javascript:void(0);">지번주소</a></li>
+                </ul>
+                <div>
+                찾으시려는 도로명주소의 건물번호 또는 건물명까지<br />
+                상세히 입력 후 검색해 주세요. 
+                </div>
+                <div class="address_box">
+                    <span><input type="text" name=""></span><span class="popup_btn"><button>검색</button></span>
+                </div>
+                   
+            </div>
+           
+        </div>
+        <!-- 달력 -->
+        <div id="popup_calendar" class="">
+            <span class="poup_close_btn"><a href="javascript:void(0);"><img src="images/chatbot/poup_close_btn_03.png" alt="팝업닫기"></a></span>
+             
+
+            <div class="poup_con">
+                <div class="date_top">
+                    <p align="center" id="tbCalendarY" colspan="5">yyyy년</p>
+                    <p align="center" id="tbCalendarM" colspan="5">m월</p>
+                </div>
+                <table id="calendar" border="3" align="center">
+                    <!-- label은 마우스로 클릭을 편하게 해줌 -->
+                   <!--   <tr>
+                        <td><label onclick="prevCalendar()"><</label></td>
+                        <td align="center" id="tbCalendarY" colspan="5">
+                        yyyy년</td>
+                        <td align="center" id="tbCalendarM" colspan="5">
+                        m월</td> 
+                        <td><label onclick="nextCalendar()">>
+                            
+                        </label></td>
+                    </tr>-->
+                    <tr>
+                        <td align="center"><font color ="#ef2a33">일</td>
+                        <td align="center">월</td>
+                        <td align="center">화</td>
+                        <td align="center">수</td>
+                        <td align="center">목</td>
+                        <td align="center">금</td>
+                        <td align="center"><font color ="#265ace">토</td>
+                    </tr> 
+                </table>
+                <script type="text/javascript">
+                    var today = new Date();//오늘 날짜//내 컴퓨터 로컬을 기준으로 today에 Date 객체를 넣어줌
+                    var date = new Date();//today의 Date를 세어주는 역할
+                    function prevCalendar() {//이전 달
+                    // 이전 달을 today에 값을 저장하고 달력에 today를 넣어줌
+                    //today.getFullYear() 현재 년도//today.getMonth() 월  //today.getDate() 일 
+                    //getMonth()는 현재 달을 받아 오므로 이전달을 출력하려면 -1을 해줘야함
+                     today = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate());
+                     buildCalendar(); //달력 cell 만들어 출력 
+                    }
+             
+                    function nextCalendar() {//다음 달
+                        // 다음 달을 today에 값을 저장하고 달력에 today 넣어줌
+                        //today.getFullYear() 현재 년도//today.getMonth() 월  //today.getDate() 일 
+                        //getMonth()는 현재 달을 받아 오므로 다음달을 출력하려면 +1을 해줘야함
+                         today = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
+                         buildCalendar();//달력 cell 만들어 출력
+                    }
+                    function buildCalendar(){//현재 달 달력 만들기
+                        var doMonth = new Date(today.getFullYear(),today.getMonth(),1);
+                        //이번 달의 첫째 날,
+                        //new를 쓰는 이유 : new를 쓰면 이번달의 로컬 월을 정확하게 받아온다.     
+                        //new를 쓰지 않았을때 이번달을 받아오려면 +1을 해줘야한다. 
+                        //왜냐면 getMonth()는 0~11을 반환하기 때문
+                        var lastDate = new Date(today.getFullYear(),today.getMonth()+1,0);
+                        //이번 달의 마지막 날
+                        //new를 써주면 정확한 월을 가져옴, getMonth()+1을 해주면 다음달로 넘어가는데
+                        //day를 1부터 시작하는게 아니라 0부터 시작하기 때문에 
+                        //대로 된 다음달 시작일(1일)은 못가져오고 1 전인 0, 즉 전달 마지막일 을 가져오게 된다
+                        var tbCalendar = document.getElementById("calendar");
+                        //날짜를 찍을 테이블 변수 만듬, 일 까지 다 찍힘
+                        var tbCalendarY = document.getElementById("tbCalendarY");
+                        //테이블에 정확한 날짜 찍는 변수
+                        //innerHTML : js 언어를 HTML의 권장 표준 언어로 바꾼다
+                        //new를 찍지 않아서 month는 +1을 더해줘야 한다. 
+                         tbCalendarY.innerHTML = today.getFullYear() + "년 "; 
+
+                          var tbCalendarM = document.getElementById("tbCalendarM");
+                        //테이블에 정확한 날짜 찍는 변수
+                        //innerHTML : js 언어를 HTML의 권장 표준 언어로 바꾼다
+                        //new를 찍지 않아서 month는 +1을 더해줘야 한다. 
+                         tbCalendarM.innerHTML = (today.getMonth() + 1) + "월"; 
+             
+                         /*while은 이번달이 끝나면 다음달로 넘겨주는 역할*/
+                        while (tbCalendar.rows.length > 2) {
+                        //열을 지워줌
+                        //기본 열 크기는 body 부분에서 2로 고정되어 있다.
+                              tbCalendar.deleteRow(tbCalendar.rows.length-1);
+                              //테이블의 tr 갯수 만큼의 열 묶음은 -1칸 해줘야지 
+                            //30일 이후로 담을달에 순서대로 열이 계속 이어진다.
+                         }
+                         var row = null;
+                         row = tbCalendar.insertRow();
+                         //테이블에 새로운 열 삽입//즉, 초기화
+                         var cnt = 0;// count, 셀의 갯수를 세어주는 역할
+                        // 1일이 시작되는 칸을 맞추어 줌
+                         for (i=0; i<doMonth.getDay(); i++) {
+                         /*이번달의 day만큼 돌림*/
+                              cell = row.insertCell();//열 한칸한칸 계속 만들어주는 역할
+                              cnt = cnt + 1;//열의 갯수를 계속 다음으로 위치하게 해주는 역할
+                         }
+                        /*달력 출력*/
+                         for (i=1; i<=lastDate.getDate(); i++) { 
+                         //1일부터 마지막 일까지 돌림
+                              cell = row.insertCell();//열 한칸한칸 계속 만들어주는 역할
+                              cell.innerHTML = i;//셀을 1부터 마지막 day까지 HTML 문법에 넣어줌
+                              cnt = cnt + 1;//열의 갯수를 계속 다음으로 위치하게 해주는 역할
+                          if (cnt % 7 == 1) {/*일요일 계산*/
+                              //1주일이 7일 이므로 일요일 구하기
+                              //월화수목금토일을 7로 나눴을때 나머지가 1이면 cnt가 1번째에 위치함을 의미한다
+                            cell.innerHTML = "<font color=#ef2a33>" + i
+                            //1번째의 cell에만 색칠
+                        }    
+                          if (cnt%7 == 0){/* 1주일이 7일 이므로 토요일 구하기*/
+                              //월화수목금토일을 7로 나눴을때 나머지가 0이면 cnt가 7번째에 위치함을 의미한다
+                              cell.innerHTML = "<font color=#265ace>" + i
+                              //7번째의 cell에만 색칠
+                               row = calendar.insertRow();
+                               //토요일 다음에 올 셀을 추가
+                          }
+                          /*오늘의 날짜에 노란색 칠하기*/
+                          if (today.getFullYear() == date.getFullYear()
+                             && today.getMonth() == date.getMonth()
+                             && i == date.getDate()) {
+                              //달력에 있는 년,달과 내 컴퓨터의 로컬 년,달이 같고, 일이 오늘의 일과 같으면
+                            //cell.bgColor = "#eaecf1";//셀의 배경색을 노랑으로 
+
+                             cell.innerHTML ="<p><em></em></p>" + "<span>"+i+"</span>"
+                             cell.className="today_check"
+                           }
+                         }
+
+                    }
+
+                </script>
+                <script language="javascript" type="text/javascript">
+                buildCalendar();//
+                </script>  
+
+            </div>
+            <div class="popup_btn btn_all">
+               <a href="javascript:void(0);">확인</a>
+            </div>
+        </div>
+
+        <!-- 시계 -->
+        <div id="popup_time" class="">
+            <span class="poup_close_btn"><a href="javascript:void(0);"><img src="images/chatbot/poup_close_btn_03.png" alt="팝업닫기"></a></span>
+            
+            <div class="poup_con">
+                <div id="clock" class="hour_ceck">
+                    <div class="clock_btn_wrap">
+                        <div class="clock_btn">
+                        </div>
+                    </div>
+                    
+                   <center>
+                        <canvas id= "canvas"
+                               width= "400px"
+                              height= "400px">
+                        </canvas>
+                    </center>
+            
+                    <p class="time_ceck_btn">
+                        <button class="on" title="hour">시 선택</button>
+                        <button class="" title="min">분 선택</button>
+                    </p>
+                    <div id="hour"><p><span></span></p></div>
+                    <div id="min"><p><span></span></p></div>
+                  
+                    
+                    <!-- <img id="hour" src="http://images.webskills.kr/etc/h.png">
+                    <img id="munite" src="http://images.webskills.kr/etc/m.png"> -->
+                    
+                </div>
+
+
+
+                <script type="text/javascript">
+
+                $(function(){
+                    $('#popup_btn_time button').bind('click',function(){
+                        $('.popup_bg').addClass('active');
+                        $('.popup_wrap').addClass('active');
+                        $('.popup_wrap #popup_time').addClass('on');
+
+                        //팝업가운데 위치
+                        var popupwH= $('.popup_wrap div.on').height();
+                        var popupwHc =popupwH/2;
+                        $('.popup_wrap').css({'margin-top':-popupwHc});
+
+
+                        //캔버스모양
+                        var canvas = document.getElementById("canvas");
+                        var ctx = canvas.getContext("2d");
+                        var radius = canvas.height / 2;
+                        ctx.translate(radius, radius);
+                        radius = radius * 0.90
+                        drawClock();
+
+                        function drawClock() {
+                          drawFace(ctx, radius);
+                          drawNumbers(ctx, radius);
+                        }
+
+                        function drawFace(ctx, radius) {
+                          var grad;
+                          ctx.beginPath();
+                          ctx.arc(0, 0, radius, 0, 2*Math.PI);
+                          ctx.fillStyle = 'white';
+                          ctx.fill();
+                          ctx.beginPath();
+                          ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+                          ctx.fillStyle = '#236bb0';
+                          ctx.fill();
+                        }
+
+                        
+                        
+                        //시계 숫자
+                        function drawNumbers(ctx, radius) {
+                          
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_1'" +">1</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_2'" +">2</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_3'" +">3</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_4'" +">4</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_5'" +">5</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_6'" +">6</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_7'" +">7</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_8'" +">8</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_9'" +">9</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_10'" +">10</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_11'" +">11</button>" );
+                          $( "#clock .clock_btn" ).append( "<button class='" + "hd_12'" +">12</button>" );
+                          
+                        }
+
+
+
+                        //시간가져오기
+
+                        $('.time_ceck_btn button').click(function(){
+                            $('.time_ceck_btn button').removeClass('on');
+                            $(this).addClass('on');
+                            $('#clock').removeClass();
+                            var TimeChk = $(this).attr('title');
+                            var TimeChk_on = TimeChk + '_ceck';
+                            $('#clock').addClass(TimeChk_on);
+                        });
+
+
+
+                        $('#clock .clock_btn button').click(function(){
+                            //시간선택
+                            if($('#clock').hasClass('hour_ceck') == true){
+                                $('#clock .clock_btn button').removeClass('on');
+                                $(this).addClass('on');
+                                $('#hour').addClass('on');
+
+                                var PHW=$(this).position();
+                            
+                                if($(this).hasClass('hd_1')) {
+                                    $('#hour').css({'transform':'rotate(34deg)'})
+                                }if($(this).hasClass('hd_2')) {
+                                    $('#hour').css({'transform':'rotate(60deg)'})
+                                }if($(this).hasClass('hd_3')) {
+                                    $('#hour').css({'transform':'rotate(90deg)'})
+                                }if($(this).hasClass('hd_4')) {
+                                    $('#hour').css({'transform':'rotate(120deg)'})
+                                }if($(this).hasClass('hd_5')) {
+                                    $('#hour').css({'transform':'rotate(148deg)'})
+                                }if($(this).hasClass('hd_6')) {
+                                    $('#hour').css({'transform':'rotate(180deg)'})
+                                }if($(this).hasClass('hd_7')) {
+                                    $('#hour').css({'transform':'rotate(214deg)'})
+                                }if($(this).hasClass('hd_8')) {
+                                    $('#hour').css({'transform':'rotate(240deg)'})
+                                }if($(this).hasClass('hd_9')) {
+                                    $('#hour').css({'transform':'rotate(270deg)'})
+                                }if($(this).hasClass('hd_10')) {
+                                    $('#hour').css({'transform':'rotate(298deg)'})
+                                }if($(this).hasClass('hd_11')) {
+                                    $('#hour').css({'transform':'rotate(328deg)'})
+                                }if($(this).hasClass('hd_12')) {
+                                    $('#hour').css({'transform':'rotate(360deg)'})
+                                }
+                            }
+                            //분선택 
+                            if($('#clock').hasClass('min_ceck') == true){
+                                $('#min').addClass('on');
+                                var PHW=$(this).position();
+                            
+                                if($(this).hasClass('hd_1')) {
+                                    $('#min').css({'transform':'rotate(34deg)'})
+                                }if($(this).hasClass('hd_2')) {
+                                    $('#min').css({'transform':'rotate(60deg)'})
+                                }if($(this).hasClass('hd_3')) {
+                                    $('#min').css({'transform':'rotate(90deg)'})
+                                }if($(this).hasClass('hd_4')) {
+                                    $('#min').css({'transform':'rotate(120deg)'})
+                                }if($(this).hasClass('hd_5')) {
+                                    $('#min').css({'transform':'rotate(148deg)'})
+                                }if($(this).hasClass('hd_6')) {
+                                    $('#min').css({'transform':'rotate(180deg)'})
+                                }if($(this).hasClass('hd_7')) {
+                                    $('#min').css({'transform':'rotate(214deg)'})
+                                }if($(this).hasClass('hd_8')) {
+                                    $('#min').css({'transform':'rotate(240deg)'})
+                                }if($(this).hasClass('hd_9')) {
+                                    $('#min').css({'transform':'rotate(270deg)'})
+                                }if($(this).hasClass('hd_10')) {
+                                    $('#min').css({'transform':'rotate(298deg)'})
+                                }if($(this).hasClass('hd_11')) {
+                                    $('#min').css({'transform':'rotate(328deg)'})
+                                }if($(this).hasClass('hd_12')) {
+                                    $('#min').css({'transform':'rotate(360deg)'})
+                                }
+                            }
+
+                        });
+
+                    });
+
+
+                    $('.poup_close_btn').bind('click',function(){
+                        $('.popup_wrap .clock_btn button').removeClass('on');
+                        
+                    });
+
+
+                });
+    
+
+    </script>
+
+
+            </div>
+            <div class="popup_btn btn_all">
+               <a href="javascript:void(0);">확인</a>
+            </div>
+        </div>
+        
+    </div>
+    <!-- //popup_wrap -->
+
+	</body>
+</html>
